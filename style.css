@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  display: grid;
+  place-items: center; /* Centers both vertically and horizontally */
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+}
+
+.main {
+  background-color: hsl(0, 0%, 12%);
+  color: white;
+  margin: auto;
+  min-width: 400px;
+  min-height: 500px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center; /* Centering items horizontally */
+  align-items: center; /* Centering items vertically */
+  flex-direction: column;
+}
+
+img {
+  border-radius: 100px;
+  height: 25%;
+  width: 25%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 25px;
+  margin: 0px;
+  font-family: Inter;
+}
+
+h2 {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+  margin: 0px;
+  font-family: Inter;
+}
+
+.links-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+li {
+  display: block;
+  width: 75%;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 20%);
+  position: relative;
+}
+
+p {
+  color: hsl(0, 0%, 50%);
+  font-size: 14px;
+  font-family: Inter;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+.button-linkk:hover,
+.button-linkk:active {
+  color: orangered;
+}
