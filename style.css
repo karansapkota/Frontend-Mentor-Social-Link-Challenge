@@ -25,6 +25,7 @@ html {
   justify-content: center; /* Centering items horizontally */
   align-items: center; /* Centering items vertically */
   flex-direction: column;
+  padding: 50px;
 }
 
 img {
@@ -45,6 +46,7 @@ h2 {
   font-size: 14px;
   margin: 0px;
   font-family: Inter;
+  margin-top: 20px;
 }
 
 .links-list {
@@ -67,7 +69,8 @@ li {
 }
 
 p {
-  color: hsl(0, 0%, 50%);
+  color: #fff;
+  margin: 20px 0;
   font-size: 14px;
   font-family: Inter;
 }
@@ -78,6 +81,9 @@ a {
   font-size: 14px;
   font-family: Inter;
   font-weight: 600;
+}
+
+.position {
 }
 
 .button-linkk:hover,
